@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateManagements.Session_", "StateManagements.Session_\StateManagements.Session_.csproj", "{41EBE35C-D8C6-4AD2-A44F-07E18A89AFA8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{1C20E1D3-2756-468A-8920-DD09C16628D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{3C61B018-29FD-4CCA-83BF-BB5F44892513}"
+	ProjectSection(SolutionItems) = preProject
+		.env.dev = .env.dev
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1E9F3833-1232-4B9F-8679-8B428B8E7B2E}"
+	ProjectSection(SolutionItems) = preProject
+		.env.dev = .env.dev
+		add-migration.ps1 = add-migration.ps1
+		Install-master.ps1 = Install-master.ps1
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StateManagements.Models", "StateManagements.Models\StateManagements.Models.csproj", "{3751D400-0C79-43D6-A203-159599034595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagements_Cookie", "..\StateManagements_Cookie\StateManagements_Cookie.csproj", "{A1B483A2-FE17-4BEF-9658-571E2523653B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateManagementsCache_", "..\Cache_\StateManagementsCache_.csproj", "{6D8CE971-CE47-4CA9-8787-27A06F8ECCFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41EBE35C-D8C6-4AD2-A44F-07E18A89AFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41EBE35C-D8C6-4AD2-A44F-07E18A89AFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41EBE35C-D8C6-4AD2-A44F-07E18A89AFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41EBE35C-D8C6-4AD2-A44F-07E18A89AFA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C20E1D3-2756-468A-8920-DD09C16628D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C20E1D3-2756-468A-8920-DD09C16628D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C20E1D3-2756-468A-8920-DD09C16628D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C20E1D3-2756-468A-8920-DD09C16628D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3751D400-0C79-43D6-A203-159599034595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3751D400-0C79-43D6-A203-159599034595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3751D400-0C79-43D6-A203-159599034595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3751D400-0C79-43D6-A203-159599034595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B483A2-FE17-4BEF-9658-571E2523653B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B483A2-FE17-4BEF-9658-571E2523653B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B483A2-FE17-4BEF-9658-571E2523653B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B483A2-FE17-4BEF-9658-571E2523653B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D8CE971-CE47-4CA9-8787-27A06F8ECCFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D8CE971-CE47-4CA9-8787-27A06F8ECCFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D8CE971-CE47-4CA9-8787-27A06F8ECCFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D8CE971-CE47-4CA9-8787-27A06F8ECCFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34BD0641-D9EB-444E-B172-9691E5015681}
+	EndGlobalSection
+EndGlobal
